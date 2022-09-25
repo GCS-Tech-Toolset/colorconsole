@@ -20,6 +20,9 @@ package com.kagr.utils.logging;
 
 import org.junit.Test;
 
+
+
+import ch.qos.logback.core.pattern.color.ANSIConstants;
 import lombok.extern.slf4j.Slf4j;
 
 
@@ -38,7 +41,23 @@ public class LogbackColorConsoleTest
         _logger.info("test info");
         _logger.warn("test warn");
         _logger.error("test error");
-
+    }
+    
+    
+    
+    
+    @Test
+    public void testAlternateColors()
+    {
+    	LogbackColorConsole.TRACE = ANSIConstants.YELLOW_FG;
+    	LogbackColorConsole.DEBUG = ANSIConstants.WHITE_FG;
+    	LogbackColorConsole.ERROR = ANSIConstants.GREEN_FG;
+    	
+        _logger.trace("test trace");
+        _logger.debug("test debug");
+        _logger.info("test info");
+        _logger.warn("test warn");
+        _logger.error("test error");
     }
 
 }

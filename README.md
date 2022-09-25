@@ -1,6 +1,15 @@
 # ColorConsole
 This project creates an appender with alternate color schemes for logback
 
+# Changing colors
+set the desired colors with the following:
+
+```java
+LogbackColorConsole.TRACE = ANSIConstants.YELLOW_FG;
+LogbackColorConsole.DEBUG = ANSIConstants.WHITE_FG;
+etc...
+```
+
 
 # POM
 add the following to your pom.xml
@@ -60,4 +69,6 @@ Next, add the color conversionRule to the desired location... for example:
 ```
 
 Notice the `%color` in the level of the XML snippet above.
+
+
 

@@ -5,8 +5,9 @@ This project creates an appender with alternate color schemes for logback
 set the desired colors with the following:
 
 ```java
-LogbackColorConsole.TRACE = ANSIConstants.YELLOW_FG;
-LogbackColorConsole.DEBUG = ANSIConstants.WHITE_FG;
+LogbackColorConsole.setTRACE(ANSIConstants.YELLOW_FG);
+LogbackColorConsole.setDEBUG(ANSIConstants.WHITE_FG);
+LogbackColorConsole.setERROR(ANSIConstants.BOLD + ANSIConstants.GREEN_FG);
 etc...
 ```
 

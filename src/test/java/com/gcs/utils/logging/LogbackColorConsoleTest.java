@@ -53,9 +53,9 @@ public class LogbackColorConsoleTest
     @Test
     public void testAlternateColors()
     {
-    	LogbackColorConsole.TRACE = ANSIConstants.YELLOW_FG;
-    	LogbackColorConsole.DEBUG = ANSIConstants.WHITE_FG;
-    	LogbackColorConsole.ERROR = ANSIConstants.GREEN_FG;
+    	LogbackColorConsole.setTRACE(ANSIConstants.YELLOW_FG);
+    	LogbackColorConsole.setDEBUG(ANSIConstants.WHITE_FG);
+    	LogbackColorConsole.setERROR(ANSIConstants.BOLD + ANSIConstants.GREEN_FG);
     	
         _logger.trace("test trace");
         _logger.debug("test debug");

@@ -12,7 +12,7 @@
 
 
 
-package com.kagr.utils.logging;
+package com.gcs.utils.logging;
 
 
 

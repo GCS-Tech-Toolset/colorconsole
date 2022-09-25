@@ -12,13 +12,17 @@
 
 
 
-package com.kagr.utils.logging;
+package com.gcs.utils.logging;
 
 
 
 
 
 import org.junit.Test;
+
+
+
+import com.gcs.utils.logging.LogbackColorConsole;
 
 
 

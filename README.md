@@ -76,7 +76,7 @@ Notice the `%color` in the level of the XML snippet above.
 
 
 ```xml
-  <logger name="org.apache.activemq" level="info" />
+	<logger name="org.apache.activemq" level="info" />
 	<logger name="org.jooq" level="info" />
 	<logger name="org.eclipse.jetty" level="info" />
 	<logger name="org.apache.commons.beanutils.FluentPropertyBeanIntrospector" level="warn" />

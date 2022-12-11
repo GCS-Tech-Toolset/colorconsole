@@ -72,4 +72,15 @@ Next, add the color conversionRule to the desired location... for example:
 Notice the `%color` in the level of the XML snippet above.
 
 
+## Helpful ignores
+
+
+```xml
+  <logger name="org.apache.activemq" level="info" />
+	<logger name="org.jooq" level="info" />
+	<logger name="org.eclipse.jetty" level="info" />
+	<logger name="org.apache.commons.beanutils.FluentPropertyBeanIntrospector" level="warn" />
+	<logger name="org.apache.commons" level="info" />
+```
+
 

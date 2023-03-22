@@ -10,7 +10,7 @@
 		<repository>
 			<id>central</id>
 			<name>a0lhjjbehcxxd-artifactory-primary-0-releases</name>
-			<url>https://gcsrepo.jfrog.io/artifactory/q5id-libs-release</url>
+			<url>https://gcsrepo.jfrog.io/artifactory/gcs-libs-release</url>
 		</repository>
 	</distributionManagement>
 
